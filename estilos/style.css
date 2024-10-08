@@ -51,7 +51,7 @@ section#login > div#imagem {
 
 section#login > div#formulario{
     display: block; 
-    padding: 10px;
+    padding: 7px;
 }
 
 div#formulario > h1{
@@ -61,4 +61,18 @@ div#formulario > h1{
 
 div#formulario > p{
     font-size: 0.8em;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Define um espaço entre os itens */
+}
+
+.campo label {
+    min-width: 60px; /* Ajuste o tamanho conforme necessário */
+}
+
+.campo input {
+    flex: 1; /* Faz o input crescer para ocupar o espaço disponível */
 }
